@@ -7,11 +7,6 @@ TABLE OF CONTENTS
     Introduction
     Problem Formulation
     Methodology
-        Data Preparation
-        Feature Selection
-        Model Selection
-        Loss Function
-        Model Validation
     Results
     Conclusion
 
