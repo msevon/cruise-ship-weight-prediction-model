@@ -30,23 +30,17 @@ PROBLEM FORMULATION
 
 The machine learning problem at hand is supervised learning. We aim to predict cruise ship deadweight based solely on the ship's physical dimensions. Ship size, particularly length, breadth, and draft, has a direct correlation with deadweight. Our dataset contains categorical (Name) and continuous (Length, Breadth, Draft, Deadweight) variables.
 
-DATA PREPARATION
+METHODOLOGY
 
 Our dataset includes 87 data points with ship names, dimensions, and deadweight. We perform data preprocessing and cleaning, removing the "Name" column and eliminating non-alphanumeric characters. We also scale the data using the preprocessing standard scaler.
 
-FEATURE SELECTION
-
 We consider ship dimensions (Length, Breadth, Draft) as essential features for predicting deadweight. A 3D plot of the data highlights the complex relationship between these dimensions and deadweight. No single dimension exhibits a significantly stronger correlation with deadweight.
-
-MODEL SELECTION
 
 We explore two regression models: Lasso Regression and Polynomial Regression.
 
     Lasso Regression: This model includes regularization to prevent overfitting. It can also perform feature selection by driving some feature coefficients to zero.
 
     Polynomial Regression: We experiment with polynomial regression of different degrees to capture non-linear relationships between features and deadweight.
-
-LOSS FUNCTION
 
 For our regression problem, we use the following loss functions:
 
