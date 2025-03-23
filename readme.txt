@@ -1,5 +1,3 @@
-Author: Miku Sevón
-
 Machine Learning Project - Predicting Cruise Ship Deadweight
 
 TABLE OF CONTENTS
